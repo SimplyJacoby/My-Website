@@ -73,6 +73,7 @@ body {
     margin-bottom: 15px;
     content: '';
     display: block;
+    border-radius: 5px;
     height: 5px;
     width: 0%;
     opacity: 0;
@@ -260,6 +261,8 @@ body {
     text-align: center;
     font-size: 130%;
     height: 40%;
+    margin-left: 5%;
+    margin-right:5%;
 }
 
 .project-link-button {
