@@ -118,6 +118,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    background-image: linear-gradient(#fff, var(--accent-color));
 }
 #intro {
     color: var(--text-color);
@@ -140,6 +141,8 @@ body {
 
 #home img {
     display: block;
+    width: 20vw;
+    height: 20vw;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1000px;
@@ -166,9 +169,10 @@ body {
     justify-content: center;
     text-align: center;
     line-height: 200%;
-    height: 80vh;
-    margin-left: 20%;
-    margin-right: 20%;
+    min-height: 700px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: -15%;
     background: var(--bg-light-color);
@@ -226,16 +230,12 @@ body {
 .project-img-button {
     border-radius: 15px;
     border: 0px solid var(--border-color);
-    width: 100%;
-    height: 100%;
+    width: 19vw;
+    height: 28.5vh;
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
     transition: all .3s ease-in-out !important;
-}
-
-.project-img-button:hover {
-    background-size: 140%;
 }
 
 .project-hidden-container:hover {
@@ -246,8 +246,8 @@ body {
     background: var(--bg-overlay-color);
     border-radius: 15px;
     z-index: 0;
-    height: 100%;
-    width: 100%;
+    height: 28.5vh;
+    width: 19vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -260,7 +260,7 @@ body {
     color: var(--text-light-color);
     text-align: center;
     font-size: 130%;
-    height: 40%;
+    max-height: 40%;
     margin-left: 5%;
     margin-right:5%;
 }
@@ -271,10 +271,10 @@ body {
     color: var(--accent-color);
     border-radius: 40px;
     border: 2px solid var(--accent-color);
-    height: 20%;
-    width: 40%;
-    margin-right: 30%;
-    margin-left: 30%;
+    height: 15%;
+    min-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
     transition: all .3s ease-in-out !important;
 }
 
@@ -294,6 +294,7 @@ body {
     width: 15%;
     margin-left: 42.5%;
     margin-right: 42.5%;
+    margin-bottom: 5vh;
     transition: all .3s ease-in-out;
 }
 
@@ -324,8 +325,8 @@ body {
     grid-template-rows: 1fr 1fr;
     width: 60vw;
     height: 60vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: auto;
+    margin-right: auto;
     grid-column-gap: 3vh;
     grid-row-gap: 3vh;
 }
@@ -336,8 +337,8 @@ body {
     grid-template-rows: 1fr 1fr;
     width: 60vw;
     height: 60vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: auto;
+    margin-right: auto;
     grid-column-gap: 3vh;
     grid-row-gap: 3vh;
     position: relative;
@@ -372,11 +373,11 @@ body {
     background-image:url('images/Project-My-Website.png');
 }
 .projects-link-container #b8 {
-    background-image:url('images/test2.jpg');
+    background-image:url('images/Project-Chequebook.png');
 }
 
 .projects-link-container #b9 {
-    background-image:url('images/test3.jpg');
+    background-image:url('images/Project-URC-GUI.png');
 }
 
 /* current projects */
