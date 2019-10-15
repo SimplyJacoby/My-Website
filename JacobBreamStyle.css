@@ -21,11 +21,13 @@
 a {
     color: var(--text-light-color);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: var(--bg-light-color);
     color: var(--text-lighter-color);
-    scroll-behavior: smooth;
 }
 
 /* navbar */
