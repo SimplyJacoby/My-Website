@@ -118,7 +118,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: linear-gradient(#fff, var(--accent-color));
+    background-image: linear-gradient(#fff, var(--accent-color))
 }
 #intro {
     color: var(--text-color);
@@ -236,6 +236,8 @@ body {
     background-size: 120%;
     background-position: center;
     transition: all .3s ease-in-out !important;
+    color: var(--text-light-color);
+    font-size: 300%;
 }
 
 .project-hidden-container:hover {
@@ -347,37 +349,37 @@ body {
 }
 
 .projects-link-container #b1 {
-    background-image:url('images/test1.jpg');
+    background-image:url('images/code.jpg');
 }
 .projects-link-container #b2 {
-    background-image:url('images/test2.jpg');
+    background-image:url('images/code.jpg');
 }
 
 .projects-link-container #b3 {
-    background-image:url('images/test3.jpg');
+    background-image:url('images/code.jpg');
 }
 
 .projects-link-container #b4 {
-    background-image:url('images/test4.jpg');
+    background-image:url('images/code.jpg');
 }
 
 .projects-link-container #b5 {
-    background-image:url('images/test5.jpg');
+    background-image:url('images/code.jpg');
 }
 
 .projects-link-container #b6 {
-    background-image:url('images/test6.jpg');
+    background-image:url('images/code.jpg');
 }
 
 .projects-link-container #b7 {
-    background-image:url('images/Project-My-Website.png');
+    background-image:url('images/code.jpg');
 }
 .projects-link-container #b8 {
-    background-image:url('images/Project-Chequebook.png');
+    background-image:url('images/code.jpg');
 }
 
 .projects-link-container #b9 {
-    background-image:url('images/Project-URC-GUI.png');
+    background-image:url('images/code.jpg');
 }
 
 /* current projects */
