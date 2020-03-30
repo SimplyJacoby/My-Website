@@ -27,7 +27,7 @@ function runDarkMode() {
         document.documentElement.style.setProperty('--text-color', '#fff');
         document.documentElement.style.setProperty('--text-lighter-color', '#ececec');
         document.documentElement.style.setProperty('--border-color', '#293347');
-        document.getElementById("home").style.backgroundImage = "linear-gradient(#293347, #293347)";
+        document.getElementById("home").style.backgroundImage = "linear-gradient(#293347, var(--accent-color))";
     }
     else {
         document.documentElement.style.setProperty('--bg-color', '#ececec');
