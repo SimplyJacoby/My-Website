@@ -1,16 +1,3 @@
-/* :root {
-    --bg-color: #ececec;
-    --bg-light-color: #fff;
-    --bg-dark-color: #293347;
-    --bg-overlay-color: #293347;
-    --accent-color: #1E90FF;
-    --text-color: #293347;
-    --text-lighter-color: #4a4a4a;
-    --text-light-color: #fff;
-    --border-color: #ececec;
-    --font: 'Work Sans', sans-serif;
-} */
-
 @import "variables.css";
 
 * {
