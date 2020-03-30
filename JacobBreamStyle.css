@@ -179,7 +179,10 @@ body {
     top: -15%;
     background: var(--bg-light-color);
     border: 1px solid var(--border-color);
+    border-top: none;
     border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     box-shadow: 0 5px 10px rgba(27, 27, 27, 0.25);
 }
 
@@ -243,7 +246,7 @@ body {
 }
 
 .project-hidden-container:hover {
-    opacity: 1 !important;
+    opacity: .95 !important;
 }
 
 .project-hidden-container {

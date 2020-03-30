@@ -1,0 +1,103 @@
+:root {
+    --bg-color: #ececec;
+    --bg-light-color: #fff;
+    --bg-dark-color: #293347;
+    --bg-overlay-color: #293347;
+    --accent-color: #1E90FF;
+    --text-color: #293347;
+    --text-lighter-color: #4a4a4a;
+    --text-light-color: #fff;
+    --border-color: #ececec;
+    --font: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+a {
+    color: var(--text-light-color);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg-light-color);
+    color: var(--text-lighter-color);
+}
+
+#email-name {
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 5%;
+    font-size: 130%;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1%;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#email-address {
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 130%;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1%;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#email-subject {
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 17px;
+    color: var(--text-color);
+}
+
+#email-message {
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 17px;
+    color: var(--text-color);
+}
+
+#email-submit {
+    display: block;
+    width: 22%;
+    margin: auto;
+    font-size: 130%;
+    height: 7vh;
+    background: var(--accent-color);
+    font-size: 130%;
+    color: var(--text-light-color);
+    border-radius: 40px;
+    border: 2px solid var(--accent-color);
+    transition: all .3s ease-in-out;
+    margin-bottom: 5%;
+}
+
+#email-submit:hover {
+    cursor: pointer;
+    background: #00000000;
+    color: var(--accent-color);
+}
