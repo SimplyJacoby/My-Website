@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background: var(--bg-light-color);
+    background: var(--bg-color);
     color: var(--text-lighter-color);
 }
 
@@ -31,7 +31,7 @@ body {
     padding: 1%;
     color: var(--text-color);
     text-align: center;
-    background-color: var(--bg-color);
+    background-color: var(--bg-light-color);
 }
 
 #email-address {
@@ -45,7 +45,7 @@ body {
     padding: 1%;
     color: var(--text-color);
     text-align: center;
-    background-color: var(--bg-color);
+    background-color: var(--bg-light-color);
 }
 
 #email-subject {
@@ -58,7 +58,7 @@ body {
     padding: 1%;
     font-size: 17px;
     color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: var(--bg-light-color);
 }
 
 #email-message {
@@ -71,7 +71,7 @@ body {
     padding: 1%;
     font-size: 17px;
     color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: var(--bg-light-color);
 }
 
 #email-submit {
