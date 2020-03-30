@@ -6,7 +6,7 @@
         <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'/>
     </head>
 
-    <body>
+    <body onload="runDarkMode();">
         <form method="POST" action="JacobBream.php">
             <input type="text" name="name" id="email-name" placeholder="your name"></input>
             <input type="email" name="address" id="email-address" placeholder="email@email.com"></input>
@@ -14,5 +14,6 @@
             <textarea name="message" id="email-message" rows="15" placeholder="message"></textarea>
             <button type="submit" id="email-submit">Send</button>
         </form>
+        <script src="JacobBreamScripts.js"></script>
     </body>
 </html>

@@ -6,7 +6,7 @@
         <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'/>
     </head>
 
-    <body>
+    <body onload="runDarkMode();">
         <div id="navbar">
             <a id="name-link" href="#">JACOBBREAM</a>
             <ul id="navbar-links">
@@ -18,6 +18,11 @@
         </div>
         <div id="container">
             <div id="home">
+                <p id="dark-mode-label">Dark Mode</p>
+                <label class="switch">
+                    <input type="checkbox" id="dark-mode-switch" onclick="setDarkMode()">
+                    <span class="slider round"></span>
+                </label>
                 <h1 id="intro">CS Student, Aspiring Developer, Problem Solver</h1>
                 <p id="intro-statement">CS student.</p>
                 <img src="images/Casual Profile Photo.jpg">
