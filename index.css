@@ -111,6 +111,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(#fff, var(--accent-color))
 }
+
 #intro {
     color: var(--text-color);
     font-size: 300%;
@@ -606,4 +607,157 @@ body {
 
 #footer-copyright {
     padding-top: 3vh;
+}
+
+@media screen and (max-width: 450px) {
+    #navbar {
+        display: none;
+        height: 0px;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -80px;
+    }
+
+    #dark-mode-label {
+        display: none;
+    }
+
+    .switch {
+        display: none;
+    }
+
+    #about-sections {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-top: none;
+        border-right: none;
+        border-radius: 0px;
+        box-shadow: none;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    #about-sections img{ 
+        width: 50px;
+        height: 50px;
+    }
+    
+    #learning {
+        width: 100%;
+        padding: 0%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-bottom: 1px solid var(--border-color);
+        border-right: none;
+    }
+    
+    #experiencing {
+        width: 100%;
+        padding: 0%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-bottom: 1px solid var(--border-color);
+        border-right: none;
+    }
+    
+    #retaining {
+        width: 100%;
+        padding: 0%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-bottom: 1px solid var(--border-color);
+        border-right: none;
+    }
+
+    #about-sections .description {
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #about-sections .about-section-header {
+        font-size: 120%;
+        padding-bottom: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #about-sections .about-section-info {
+        padding-bottom: 10%;
+        list-style: none;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #recent-projects-links {
+        display: relative;
+        grid-template-columns: 0fr;
+        grid-template-rows: 0fr;
+        width: 60vw;
+        height: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-gap: 0vh;
+        grid-row-gap: 3vh;
+    }
+    
+    .project-hidden-container {
+        display: none;
+    }
+
+    .project-img-button {
+        border-radius: 15px;
+        border: 0px solid var(--border-color);
+        width: 70vw;
+        height: 24vh;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: center;
+        transition: none;
+        color: var(--text-light-color);
+        font-size: 300%;
+    }
+
+    #recent-projects {
+        height: 190vh;
+        justify-content: flex-start;
+    }
+
+    #recent-projects .section-header {
+        margin-bottom: 2%;
+    }
+    
+    #recent-projects .section-header-description {
+        padding-bottom: 5%;
+    }
+
+    #recent-projects-hidden-containers {
+        display: none;
+    }
+
+    #current-projects-hidden-containers {
+        display: none;
+    }
+
+    #current-projects-links {
+        display: relative;
+        grid-template-columns: 0fr;
+        grid-template-rows: 0fr;
+        width: 60vw;
+        height: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-gap: 0vh;
+        grid-row-gap: 3vh;
+    }
+
+    #current-projects {
+        height: 120vh;
+        justify-content: flex-start;
+    }
 }
