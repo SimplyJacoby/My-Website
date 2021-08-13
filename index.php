@@ -5,4 +5,5 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     mail("JacobBreamWebsite@gmail.com", $subject, $message, $headers);
+    header('Location: JacobBream.html');
 ?>
